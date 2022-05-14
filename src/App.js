@@ -11,7 +11,7 @@ import NotFound from './Shared/NotFound';
 
 function App() {
   return (
-    <div className='' >
+    <div className='mx-w-7xl mx-auto px-12' >
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={< Home />}></Route>
